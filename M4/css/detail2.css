@@ -1,0 +1,108 @@
+
+.top{
+	position: fixed;
+    top: 0;
+    width: 100%;	
+	background: #fff;
+	z-index: 999;
+	height:45px;
+}
+.top .top-navs ul{
+	height: 45px;
+}
+
+.top .top-navs ul .lin{
+	border-bottom: 2px solid red;
+}
+.top .top-navs ul li{
+	float:left;
+	width:20%;
+	height: 45px;
+	font-size:15px;
+	line-height: 45px;
+	text-align:center;
+	border-bottom: 1px solid #0A0A0A;
+}
+.top-navs ul li a{
+	display: block;
+	color: #000;
+}
+.top-navs ul li a .fh:BEFORE {
+content: ' ';
+position: absolute;
+left: 10px;
+top: 15px;
+border: #999 solid;
+border-width: 2px 0 0 2px;
+width: 13px;
+height: 13px;
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+}
+.top .top-navs ul li ul {
+	position: absolute;
+	right: 0;
+	z-index: 999;
+	
+}
+
+.top .top-navs ul li ul li{
+	float: none;
+	width: 85px;
+	border: 0px;
+	border-bottom:1px solid #c0c0c0;
+	text-align: center;
+	background: #000;
+	font-size: 1em;
+	
+}
+.top .top-navs ul li ul li a span{
+	display: block;
+	padding-left: 20px;
+	color:#fff;
+}
+.top .top-navs ul li ul li a .sx{
+	background: url(../images/detail_img/suxi.png) no-repeat;
+	background-position: 8px center;
+}
+.top .top-navs ul li ul li a .ss{
+	background: url(../images/detail_img/fangdaj.png) no-repeat;
+	background-position: 8px center;
+	background-size:25px;
+}
+.top .top-navs ul li ul li a .sy{
+	background: url(../images/detail_img/ssy.png) no-repeat;
+	background-position: 8px center;
+}
+/*下拉菜单样式*/
+.ycnr span{
+	display: block;
+	line-height: 45px;
+	height: 45px;
+	background: url(../pingjia/pingjia_img/sandian.png) no-repeat center;
+	
+}
+/*底部菜单修改，添加*/
+.sr-l{position:fixed;left:0;bottom:0;height:50px;width:100%;background:rgba(255,255,255,.9);z-index:100;border-bottom:1px solid #f1f1f1;}
+.sr-l div{/* width:20%; */float:left;display:-webkit-box;display:flex;justify-content:center;align-items:center;-webkit-box-align:center;-webkit-box-pack:center;}
+.sr-l .s-cd{width:15%;height:50px; position:relative;top:7px;}
+.sr-l .s-an{width:35%;line-height:50px;color:#fff;}
+.sr-l .s-colo{background: #ff9000;}
+.sr-l .s-colos{background: #dd2726;}
+.sr-l .s-btn img{
+	width:25px;
+	height:25px;
+}
+/*底部文字样式*/
+.jrgwc,.ljgm{
+color:#fff;
+font-size:15px;	
+}
+.sr-l .s-btn p{
+	text-align: center;
+	font-size:13px;
+	margin: 0;
+	position: relative;
+	top: -10px;
+}
+

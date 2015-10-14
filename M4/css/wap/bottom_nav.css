@@ -1,0 +1,57 @@
+html,body{height:100%}
+
+#contents{padding-bottom:46px;max-width:640px;min-width:320px;width:100%;margin:0 auto}
+
+.sr-s-app{position:fixed;top:0;bottom:0}
+
+.sr-s{position:fixed;left:0;bottom:0;height:64px;width:100%;background:rgba(255,255,255,.9);z-index:100;border-bottom:1px solid #f1f1f1;}
+
+.sr-s div{height:59px;width:20%;float:left;display:-webkit-box;display:flex;justify-content:center;align-items:center;-webkit-box-align:center;-webkit-box-pack:center; margin-top:5px;}
+
+.sr-s div span{display:block;vertical-align:middle;color:#666;font-size:14px;width:100%;float:left;}
+
+.sr-s div span a{color:#666}
+
+.sr-s div:last-child{border-right:1px solid #f1f1f1}
+
+.sr-s .s-btn i{display:block;margin:8px auto 4px;width:25px;height:25px;background-repeat:no-repeat;background-size:contain;background-position:center}
+
+.sr-s .s-btn .nav_home_icon{background-image:url(wap/top_nav_home_icon.png)}
+
+.sr-s .s-btn .nav_search_icon{background-image:url(wap/top_nav_order_icon.png)}
+
+.sr-s .s-btn .nav_tuan_icon{background-image:url(wap/top_nav_search_icon.png)}
+
+.sr-s .s-btn .nav_cart_icon{background-image:url(wap/top_nav_cart_icon.png)}
+
+.sr-s .s-btn .nav_user_icon{background-image:url(wap/top_nav_user_icon.png)}
+
+.sr-s .sr-icon{width:10px;height:12px;margin:0 2px;background-size:100% 100%}
+
+.sr-s .s-price{width:9px;display:block}
+
+.sr-s .s-price span{height:5px;display:block}
+
+.sr-s .icon-default{background-image:url(/wap/img/search/icon-default-g.png?t=201508191147)}
+
+.sr-s .selected .icon-default{background-image:url(/wap/img/search/icon-default.png?t=201508191147)}
+
+.sr-s .icon-asc{background-image:url(/wap/img/search/icon-asc-g.png?t=201508191147);margin-bottom:3px}
+
+.sr-s .selected.asc .icon-asc{background-image:url(/wap/img/search/icon-asc.png?t=201508191147)}
+
+.sr-s .icon-desc{background-image:url(/wap/img/search/icon-desc-g.png?t=201508191147)}
+
+.sr-s .selected.desc .icon-desc{background-image:url(/wap/img/search/icon-desc.png?t=201508191147)}
+
+.sr-s .icon-down{background-image:url(/wap/img/search/icon-down-g.png?t=201508191147)}
+
+.sr-s .selected .icon-down{background-image:url(/wap/img/search/icon-down.png?t=201508191147)}
+
+.sr-s .icon-select{background-image:url(/wap/img/search/icon-select-g.png?t=201508191147)}
+
+.sr-s .selected .icon-select{background-image:url(/wap/img/search/icon-select.png?t=201508191147)}
+
+.sr-s .s-sales.asc.selected .sr-icon,.sr-s .s-hot.asc.selected .sr-icon{background-image:url(/wap/img/search/icon-up.png?t=201508191147)}
+
+.sr-s .s-sales.desc.selected .sr-icon,.sr-s .s-hot.desc.selected .sr-icon{background-image:url(/wap/img/search/icon-down.png?t=201508191147)}

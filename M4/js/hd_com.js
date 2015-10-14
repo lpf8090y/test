@@ -1,0 +1,1 @@
+var wapKoreaGoodsList={init:function(){var n=this;n.banner("hd_ban_model",!0),n.banner("hd_ban_mode2",!0),n.banner("hd_ban_mode3",!0)},banner:function(n,a){{var e=$(".slider-page");new TouchSlider({id:n,begin:0,auto:a,before:function(n){$(".cur",e).removeClass("cur"),$("span",e).eq(n).addClass("cur")}})}}};$(function(){wapKoreaGoodsList.init()});

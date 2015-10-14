@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://m.#.com/s/search?keyword=%E8%A1%A3%E6%9C%8D -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">        
+        <link rel="apple-touch-icon-precomposed" href="http://static-web.#.com/wap/img/collect-logo/#-collect-logo.png">
+        <title>山城速购</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no, email=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <!-- uc强制竖屏 -->
+        <meta name="screen-orientation" content="portrait">
+        <meta name="full-screen" content="yes">
+        <meta name="browsermode" content="application">
+        <!-- QQ强制竖屏 -->
+        <meta name="x5-orientation" content="portrait">
+        <meta name="x5-fullscreen" content="true">
+        <meta name="x5-page-mode" content="app">
+        <meta name="keywords" content="山城速购">
+        <meta name="description" content="山城速购">
+        <link rel="stylesheet" href="css/common.css" type="text/css">
+		<link rel="stylesheet" href="css/search_list.css" type="text/css"> 
+	
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/scrollTop.js"></script>           
+		<!--隐藏页面css和js-->
+		<link rel="stylesheet" href="css/swiper.min.css" type="text/css">   		
+        <script src="js/zepto.js"></script>
+		<script src="js/filter.js"></script>
+		<script src="js/swiper.jquery.min.js"></script> 
+		<script type="text/javascript" src="js/stat3.min.js"></script>
+		<script type="text/javascript" src="js/search_list.js" charset="UTF-8"></script>
+		<!--隐藏页面css和js结束-->
+		</head>
+
+    <body data-mps="PA4101">
+        <div id="page">
+            <header class="wap-header">
+    <div class="wap-topbar" style="">
+        <div class="h-left"><a href="javascript:history.go(-1);" title="返回">返回</a></div>
+        <div class="h-center">
+            <form id="sForm" action="#" method="get">
+                <input type="text" name="keyword" id="keyword" value="" class="h-search J-search-trigger" placeholder="输入关键词进行搜索">
+                <input type="submit" class="header-search-btn" value="">
+            </form>
+            <input type="hidden" name="sortField" id="sortField" value="SalesAmount">
+            <input type="hidden" name="sortType" id="sortType" value="desc">
+            <input type="hidden" name="categoryValue" id="categoryValue" value="">
+            <input type="hidden" name="priceFrom" id="priceFrom" value="">
+            <input type="hidden" name="priceTo" id="priceTo" value="">
+            <input type="hidden" name="brandValue" id="brandValue" value="">
+            <input type="hidden" name="sourceValue" id="sourceValue" value="">
+            <input type="hidden" name="metaSearch" id="metaSearch" value="0">
+        </div>
+            <a href="list.html" class="search_nav_icon_none"><img src="css/wap/app_mode.png" style="width:35px;height:35px;"></a>
+    </div>
+    <!-- <nav class="nav_wrap_new">
+    <i class="top_nav_icon"></i>
+    <ul class="top_nav_ul clear-fix">
+        <a href="index.html">
+            <li class="top_nav_li top_nav_home fl">
+                <i class="nav_home_icon"></i>
+                <span class="top_nav_li_span">首页</span>
+            </li>
+        </a>
+        <a href="search/category.html">
+            <li class="top_nav_li top_nav_search fl">
+                <i class="nav_search_icon"></i>
+                <span class="top_nav_li_span">搜索</span>
+            </li>
+        </a>
+        <a href="cart.html">
+            <li class="top_nav_li top_nav_cart fl">
+                <i class="nav_cart_icon"></i>
+                <span class="top_nav_li_span">购物车</span>
+            </li>
+        </a>
+        <a href="huiyuan.html">
+            <li class="top_nav_li top_nav_order fl">
+                <i class="nav_order_icon"></i>
+                <span class="top_nav_li_span">订单</span>
+            </li>
+        </a>
+        <a href="huiyuan.html">
+            <li class="top_nav_li top_nav_user fl">
+                <i class="nav_user_icon"></i>
+                <span class="top_nav_li_span">我的</span>
+            </li>
+        </a>
+    </ul>
+</nav> --></header>
+<section id="contents">
+                  <!--精准搜索开始 0804
+        <section class="precise-seach">
+            <div class="ps_top cf">
+                <a href="javascript:void(0);" class="s-btn">搜全网</a>
+                <strong>精准搜索：</strong>
+            </div>
+            <ul class="logo-items cf">
+                <li data-id="taobao.com"><a href="javascript:void(0);"><img src="files/taobao-logo.png"> </a> <a href="javascript:void(0);" class="check"></a></li>
+                <li data-id="tmall.com"><a href="javascript:void(0);"><img src="files/tmall-logo.png"> </a> <a href="javascript:void(0);" class="check"></a></li>
+                <li data-id="jd.com"><a href="javascript:void(0);"><img src="files/jingdong-logo.png"> </a> <a href="javascript:void(0);" class="check"></a></li>
+                <li data-id="suning.com"><a href="javascript:void(0);"><img src="files/suning-logo.png"> </a><a href="javascript:void(0);" class="check"></a> </li>
+            </ul>
+        </section>
+        精准搜索结束 0804-->
+		<div class="no-result-tip">
+			搜索“
+			<span></span>
+			”无结果
+		</div>
+        <section class="sr-s">
+            <div class="s-btn selected" data="sales">
+                <span>销量</span>
+            </div>
+            <div class="s-btn" data="price">
+                <span>价格</span>
+            </div>
+            <div class="s-btn" data="hot">
+                <span>人气</span>
+            </div>
+            <div class="first" data="default">
+                <span><a href="select.html">筛选</a></span>
+            </div>
+        </section>
+        
+    <section class="s-list cf" id="dataList">
+                  
+    <link href="css/style1.2.css" rel="stylesheet" type="text/css" />
+			<section class="deals">
+
+					<div data-id= 226519 >
+					  <figure>
+						<a href="item/detail.html" target="_blank"><img src="files/wap_big_da9c97087b8d070e10f03ac9888ab02c.jpg"/></a>
+					  </figure>
+					  <h2>
+						<span><a href="item/detail.html" target="_blank">【今日上新】厨房多功能双层S型沥水置物架42*25*37CM 原价100元 折扣价36元多数地区包邮</a></span>
+						</h2>
+					  <aside><!-- 
+						  <span class="i1"><i></i>返积分</span>
+						  <span class="i3"><i></i>包邮</span> -->
+					  </aside>
+					  <p>
+					  <span>￥<i>36.00</i></span>
+					  <cite>原价100.00&nbsp;&nbsp;3.6折</cite>
+						
+					  </p>
+					</div>
+					<div data-id= 224775 >
+					  <figure>
+						<a href="item/detail.html" target="_blank"><img src="files/wap_big_6ea274ca07c9dd19e71c48a7136236c0.jpg"/></a>
+					  </figure>
+					  <h2>
+						<span><a href="item/detail.html" target="_blank">【今日上新】菲姿婷性感舒适竹浆纤维内裤5条 原价158元 折扣价22.9元多数地区包邮</a></span>
+						</h2>
+					  <aside><!-- 
+						  <span class="i1"><i></i>返积分</span>
+						  <span class="i3"><i></i>包邮</span> -->
+					  </aside>
+					  <p>
+					  <span>￥<i>22.90</i></span>
+					  <cite>原价158.00&nbsp;&nbsp;1.4折</cite>
+						
+					  </p>
+					</div>
+					<div data-id= 223823 >
+					  <figure>
+						<a href="item/detail.html" target="_blank"><img src="files/wap_big_75c137b862af5cbae1b119296e2eaa22.jpg"/></a>
+					  </figure>
+					  <h2>
+						<span><a href="item/detail.html" target="_blank">【今日上新】调整型聚拢加厚杯性感文胸 原价179元 折扣价19.9元多数地区包邮</a></span>
+						</h2>
+					  <aside><!-- 
+						  <span class="i1"><i></i>返积分</span>
+						  <span class="i3"><i></i>包邮</span> -->
+					  </aside>
+					  <p>
+					  <span>￥<i>19.90</i></span>
+					  <cite>原价179.00&nbsp;&nbsp;1.1折</cite>
+						
+					  </p>
+					</div>
+					<div data-id= 223393 >
+					  <figure>
+						<a href="item/detail.html" target="_blank"><img src="files/wap_big_4cd9bf7caf18d37ba78b944cc1e8698e.jpg"/></a>
+					  </figure>
+					  <h2>
+						<span><a href="item/detail.html" target="_blank">【今日上新】秋冬情侣睡袍 原价198元 折扣价32元多数地区包邮</a></span>
+						</h2>
+					  <aside><!-- 
+						  <span class="i1"><i></i>返积分</span>
+						  <span class="i3"><i></i>包邮</span> -->
+					  </aside>
+					  <p>
+					  <span>￥<i>32.00</i></span>
+					  <cite>原价198.00&nbsp;&nbsp;1.6折</cite>
+						
+					  </p>
+					</div>
+
+
+
+					  <aside class="more">
+						<span>
+						  <a id="loadMore" data-page="1" href="javascript:void(0);">点击加载更多</a>
+						</span>
+					  </aside>
+			</section>                                  
+                                           
+    </section>
+            
+</section>
+    <script type="text/javascript" src="files/search_list.js" charset="UTF-8"></script>
+    
+        </div>
+        
+    
+
+<footer id="footer">
+	<div class="f-qk-tl">
+		<div class="f-login">
+<a href="login.html">登录</a><span>|</span><a href="reg.html">注册</a>
+		<div class="f-go-top" id="goTop"><a href="#">TOP</a></div>
+		</div>
+	</div>
+	<div class="f-ch-cp">
+		<div class="item"><a href="index.html">触屏版</a><a href="http://www.yqtvt.com/index.html">标准版</a></div>
+		<div class="item"><span class="copyright_1">Copyright</span> <span class="copyright_2">2012-2015</span><span class="copyright_3">NAI.COM</span><span class="copyright_4">版权所有</span></div></div>
+</footer></body></html>

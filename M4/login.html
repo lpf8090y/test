@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">        
+        <link rel="apple-touch-icon-precomposed" href="">
+        <title>登录</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no, email=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <!-- uc强制竖屏 -->
+        <meta name="screen-orientation" content="portrait">
+        <meta name="full-screen" content="yes">
+        <meta name="browsermode" content="application">
+        <!-- QQ强制竖屏 -->
+        <meta name="x5-orientation" content="portrait">
+        <meta name="x5-fullscreen" content="true">
+        <meta name="x5-page-mode" content="app">
+        <meta name="keywords" content="山城速购">
+        <meta name="description" content="山城速购">
+        <link rel="stylesheet" href="css/common.css" type="text/css"><link rel="stylesheet" href="css/center.css" type="text/css">                <script src="js/jquery-1.9.1.min.js"></script><script src="js/common.js"></script>            <link rel="stylesheet" href="css/csshide1.css">
+<style>#sell-ad{display:none!important;}</style>
+
+
+<script type="text/javascript">window.onerror=function(){return true;}</script></head>
+
+    <body data-mps="PA4101">
+        <div id="page">
+            <header class="wap-header">
+    <div class="wap-topbar">
+        <div class="h-left"><a href="javascript:history.go(-1);" title="返回"></a></div>
+        <div class="h-center">
+            <h1>登录</h1>
+        </div>
+    </div>
+    <!-- <nav class="nav_wrap_new">
+    <i class="top_nav_icon"></i>
+    <ul class="top_nav_ul clear-fix">
+        <a href="index.html">
+            <li class="top_nav_li top_nav_home fl">
+                <i class="nav_home_icon"></i>
+                <span class="top_nav_li_span">首页</span>
+            </li>
+        </a>
+        <a href="search/category.html">
+            <li class="top_nav_li top_nav_search fl">
+                <i class="nav_search_icon"></i>
+                <span class="top_nav_li_span">搜索</span>
+            </li>
+        </a>
+        <a href="cart.html">
+            <li class="top_nav_li top_nav_cart fl">
+                <i class="nav_cart_icon"></i>
+                <span class="top_nav_li_span">购物车</span>
+            </li>
+        </a>
+        <a href="huiyuan.html">
+            <li class="top_nav_li top_nav_order fl">
+                <i class="nav_order_icon"></i>
+                <span class="top_nav_li_span">订单</span>
+            </li>
+        </a>
+        <a href="huiyuan.html">
+            <li class="top_nav_li top_nav_user fl">
+                <i class="nav_user_icon"></i>
+                <span class="top_nav_li_span">我的</span>
+            </li>
+        </a>
+    </ul>
+</nav> --></header><link rel="stylesheet" href="css/loglist.css">
+<section class="reg-main">
+    <form id="login-form" class="reg-form" method="post" novalidate>
+        <div class="field username  field-login field-login-username">
+            <div class="field-relative">
+                <input class="reg-input" type="text" name="userName" placeholder="请输入手机号/邮箱" value="" autocomplete="off"> 
+                <a href="javascript:void(0);" class="icon-reg reg-empty" title="清空" style="display: none;">清空</a>
+            </div>
+        </div>
+        <div class="field psw field-login field-login-psw">
+            <div class="field-relative">
+                <input class="reg-input" type="password" name="password" placeholder="请输入密码" value="" autocomplete="off" onpaste="return false;" oncopy="return false;" oncut="return false;"> 
+                <a href="javascript:void(0);" class="icon-reg reg-empty" title="清空" style="display: none;">清空</a>
+            </div>
+        </div>
+                    <div class="field forget">
+                <div class="reg-error-box"></div>
+                <a href="findpwd.html" id="toForget">忘记密码？</a>
+            </div>
+                <div class="field submit-btn">
+                            <input type="button" id="loginBtn" class="reg-btn dark-btn" value="登录">
+                                    <input type="button" id="regLink" class="reg-btn light-btn mt10" value="注册">                    
+                             
+
+        </div>
+    </form>
+    
+            <div class="other-login">
+            <strong>第三方帐号快速登录</strong>
+        </div>
+        <div class="qq-login">
+            <a href="#" class="qq"><i>qq登录</i><p>qq登录</p>
+            </a>
+			<a  href="#" class="yq"><i>无线阳泉</i><p>无线阳泉</p>
+            </a>
+            <a  href="#" class="wx"><i>微信登录</i><p>微信登录</p>
+            </a>
+			
+        </div>        
+      
+</section>
+<input type="hidden" id="sendRedirect" name="sendRedirect" value="#">
+<input type="hidden" id="referer" name="referer" value="">
+<script src="js/validate.min.js"></script>
+<script src="js/user.js"></script>
+<script>
+    $(function() {
+        window.B5M_UC = {
+            rootPath : '#'
+        };
+        wapReg.loginFun();
+    });
+    //Cookies.set('login',true);Cookies.set('showname','stageRahxephon');Cookies.set('token','b6c9696bc52a4e26b0019a37bd0e856d');
+</script>
+        </div>
+        <input type="hidden" id="is_login" name="is_login" value="">
+        <input type="hidden" id="show_nav" value="1">
+        <input type="hidden" data-isnew="" data-isold="" id="is_app" value="">
+                <img src="log_files/hm.gif" width="0" height="0">
+        <script type="text/javascript" src="js/stat3.min.js"></script><div style="display: none;"><script type="text/javascript" async src="log_files/h.js"></script></div><img id="stat_image" src="log_files/__utm.gif" style="display: none;">
+
+    
+
+<footer id="footer">
+	<div class="f-qk-tl">
+		<div class="f-login">
+<a href="login.html">登录</a><span>|</span><a href="reg.html">注册</a>
+		</div>
+		<div class="f-go-top" id="goTop"></div>
+	</div>
+	<div class="f-ch-cp">
+		<div class="item"><a href="index.html">触屏版</a><a href="http://www.yqtvt.com/index.html">电脑版</a></div>
+		<div class="item"><span class="copyright_1">Copyright</span> <span class="copyright_2">2012-2015</span><span class="copyright_3">NAI.COM</span><span class="copyright_4">版权所有</span></div></div>
+</footer>
+
+<!--底部浮动-->
+		<script type="text/javascript" src="js/search_list.js" charset="UTF-8"></script>
+		<link rel="stylesheet" href="css/bottom_nav.css" type="text/css"> 
+
+        <section class="sr-s">
+            <div class="s-btn" data="sales">
+				<a href="index.html">
+               <img src="images/m_xiabiao/img1.png" width="50" height="50" alt="首页"></a>
+            </div>
+            <div class="s-btn" data="price">
+				<a href="search/category.html"><img src="images/m_xiabiao/img2.png" width="50" height="50" alt="分类"></a>
+            </div>
+            <div class="s-btn" data="hot">
+				<a href="tuan_art.html"><img src="images/m_xiabiao/img3.png" width="50" height="50" alt="团购"></a>
+            </div>
+            <div class="s-btn" data="default">
+				<a href="cart.html"><img src="images/m_xiabiao/img4.png" width="50" height="50" alt="购物车"></a>
+            </div>
+            <div class="s-btn" data="default">
+				<a href="huiyuan.html"><img src="images/m_xiabiao/img5.png" width="50" height="50" alt="我的山城"></a>
+            </div>
+        </section>
+  
+         
+         
+         
+         
+         
+
+</body></html>

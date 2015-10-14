@@ -1,0 +1,74 @@
+﻿@charset "utf-8";
+/* 全局 */
+body,div,p,ul,li,dl,dt,dd,form,input,table,img,h1,h2,h3,h4,h5,h6,header,section,footer,nav,figure,figcaption,article{margin:0;padding:0}
+header,section,footer,nav,figure,figcaption,article,menu{display:block}
+body{font-size:12px;font-family:"微软雅黑";color:#646464}
+a,a:hover{text-decoration:none;color:#000}
+em,i,cite,var{font-style:normal}
+img{border:none;display: inline-block;vertical-align: top}
+ul{list-style-type:none}
+.l,.left{float:left;display: inline}
+.r,.right{float:right;display: inline}
+.clear:after,section:after{content:".";display:block;visibility:hidden;height:0;clear:both}
+.clear,section{zoom:1}
+h1, h2, h3, h4, h5, h6 {font-size: 12px;font-weight: normal}
+h2 {text-align: right}
+h2 span{float:left;font-weight: bold;text-align: left}
+.hidden{display: none}
+.show{display:block}
+section,header,nav,footer{min-width:320px}
+.w280{min-width:280px;margin:0 5%}
+.w300{min-width:300px;margin:0 3%}
+
+
+/*deal S*/
+.deals div{padding-bottom:10px;border-bottom:1px solid #c3c3c3;margin-top:10px;overflow: hidden}
+.deals div figure {margin-left:3%;position: relative;margin-right:2%;float:left}
+.deals div figure img{width:102px;height:68px;}
+.deals div figure sup{width:25px;height:25px;background: url(../images/v2icon2.png) 0 0 no-repeat;position: absolute;top:0;left:0}
+.deals div h2{height:36px;overflow: hidden;position: relative;padding-right:35px}
+.deals div h2 span{font:14px/18px "微软雅黑"}
+.deals div h2 sub,.guangdeals div figure sub{position: absolute;top:0px;right:12px;background: url(../images/v2icon1.png) 0 -102px no-repeat;width:23px;height:23px;cursor: pointer}
+.deals div h2 sub.check,.guangdeals div figure sub.check{background-position: 0 -77px}
+.deals p sub{float:right;margin-left:10px;}
+.deals div aside{overflow: hidden;height:18px}
+.deals div aside span{float:left;margin-right:4px;font-size:10px;color:#646464}
+.deals div aside i{width:14px;height:12px;float:left;background: url(../images/v2icon1.png) 0 -127px no-repeat;margin-top:2px}
+.deals div aside img{width:10px;height:12px; vertical-align:-1px;margin-right:2px}
+.deals div aside span.i1 i{background-position: 0 -127px}
+.deals div aside span.i2 i{background-position: 0 -140px}
+.deals div aside span.i3 i{background-position: 0 -154px}
+.deals div p{line-height: 14px;position: relative;padding-right:56px}
+.deals div p span{width:56px;float:left;color:#ff4e35;height:14px;overflow: hidden}
+.deals div p span i{font-size:14px}
+.deals div p cite{font-size:10px;color:#646464}
+.deals div p b{height:18px;width:54px;position: absolute;bottom:-2px;right:0;color:#fff;text-align: center;line-height: 18px}
+.deals div p b.i1{background: #ff291e}
+.deals div p b.i2{background: #42a532}
+.deals div p b.i3{background: #606060}
+#concernlist div p b.i1{background: #989898;border-radius: 3px}
+#concernlist div p b.i1 a{color:#d7d7d7}
+#lipinlist div figure sup{background-position: 0 -47px;width:30px;height:14px}
+#lipinlist div p{height:18px;overflow: hidden;line-height: 18px;margin-top:14px}
+#lipinlist div p span{width:auto;height:18px;color:#646464}
+#lipinlist div p b{bottom:0}
+#lipinlist div p b.i1{background: #1e6dff}
+#lipinlist div p b.i2{background: #ff8a00}
+#lipinlist div p b.i3{background: #ff291e}
+.more{font:14px/36px '微软雅黑';text-align: center;position: relative;width:100%;overflow: hidden}
+.more i{position: absolute;top:0;right:4%}
+.more i b{width: 0;height: 0;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom: 11px solid #606060;font:0/0 '';float:right;margin-top:13px;margin-left:5px}
+/*deal E*/
+
+
+
+/*---------------------------------------------------------*/
+.subjectinfo aside b,.subjectinfo aside strong{color:#000;font-size:14px}
+.focus,.userpanel h6,address h6,.adA{text-align: center}
+.deals div p b a,.tag-child .tab ul li a,.duihuanfoot span{color:#fff}
+.co1,.guangdeals div aside cite,.qiandao aside a,#integral article.guoqi li span var{color:#ff4e35}
+.f10{font-size:10px}
+.mb10{margin-bottom:10px}
+.qiandao article .r h5 b{color:#000}
+.guangdeals div p span a{color:#646464}
+.deals .more a.endload{color:#646464;cursor:default}

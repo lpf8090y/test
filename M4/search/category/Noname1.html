@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready( function() {
+    $("a.trace_show").toggle( function() {
+        $(this).parent().next("ul").show('fast');
+    }, function() {
+        $(this).parent().next("ul").hide('slow');
+    });
+});
+</script>
+</head>
+ 
+<body>
+<p id="1"><a href="#" class="trace_show">显示内容</a></p>
+<ul id="trace_1" class="trace_content" style="display: none;">
+  <li>...........</li>
+  <li>...........</li>
+  <li>...........</li>
+  <li>...........</li>
+</ul>
+<p id="2"><a href="#" class="trace_show">显示内容</a></p>
+<ul id="trace_2" class="trace_content" style="display: none;">
+  <li>...........</li>
+  <li>...........</li>
+  <li>...........</li>
+  <li>...........</li>
+</ul>
+<p id="3"> <a href="#" class="trace_show">显示内容</a></p>
+<ul id="trace_3" class="trace_content" style="display: none;">
+  <li>...........</li>
+  <li>...........</li>
+  <li>...........</li>
+  <li>...........</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,9 @@
+#wrap{padding-bottom:46px;max-width:640px;min-width:320px;width:100%;margin:0 auto}
+#wrap h5{padding-left:9px;height:35px;line-height:35px}
+#wrap .brand_wrap{width:100%;padding:3px}
+#wrap .brand_wrap .brand_swiper_wrap{padding:3px 0}
+#wrap .brand_wrap .brand_swiper_wrap ul li{display:block;width:20%;padding:3px;height:80%;}
+#wrap .brand_wrap .brand_swiper_wrap ul li .brand_one_box{text-align:center;font-size:1em;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;word-wrap:break-word}
+#wrap .fl img{width:100%;/*height:100%;*/border:0;overflow:hidden;}
+#wrap .brand_one_box .title{height:20px;margin-top:4px;display:inline-block;float:left;text-align:left;padding-left:3px;}
+#wrap .brand_one_box .price{height:20px;color:#f15a24;margin-top:4px;display:inline-block;float:right;padding-right:3px;}

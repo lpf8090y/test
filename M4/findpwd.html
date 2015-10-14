@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">        
+        <link rel="apple-touch-icon-precomposed" href="#">
+        <title>找回密码</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no, email=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <!-- uc强制竖屏 -->
+        <meta name="screen-orientation" content="portrait">
+        <meta name="full-screen" content="yes">
+        <meta name="browsermode" content="application">
+        <!-- QQ强制竖屏 -->
+        <meta name="x5-orientation" content="portrait">
+        <meta name="x5-fullscreen" content="true">
+        <meta name="x5-page-mode" content="app">
+        <meta name="keywords" content="山城速购">
+        <meta name="description" content="山城速购">
+        <link rel="stylesheet" href="css/common.css" type="text/css"><link rel="stylesheet" href="css/center.css" type="text/css">                <script src="js/jquery-1.9.1.min.js"></script><script src="js/common.js"></script>            <link rel="stylesheet" href="css/csshide1.css">
+<style>#sell-ad{display:none!important;}</style>
+<link rel="stylesheet" href="css/abprule.css">
+
+<script type="text/javascript">window.onerror=function(){return true;}</script></head>
+
+    <body>
+        <div id="page">
+            <header class="wap-header">
+    <div class="wap-topbar">
+        <div class="h-left"><a href="javascript:history.go(-1);" title="返回"></a></div>
+        <div class="h-center">
+            <h1>找回密码</h1>
+        </div>
+    </div>
+    </header><link rel="stylesheet" href="css/loglist.css">
+<section class="reg-main">
+    <form id="find-form" class="reg-form" method="post" novalidate="novalidate">
+        <div class="field username">
+            <div class="field-relative">
+                <input id="mobile" class="reg-input icon-reg icon-reg-phone" type="text" name="mobile" placeholder="请输入手机号" value="" autocomplete="off">
+                <a href="javascript:void(0);" class="icon-reg reg-empty" title="清空" style="display:none;">清空</a>
+            </div>
+            <div class="reg-error-box" style="display:none;"></div>
+        </div>
+        <div class="field code mt10">
+            <div class="field-relative cf">
+                <input id="code" class="reg-input reg-disabled fl" type="text" name="code" placeholder="请输入验证码" value="" autocomplete="off" maxlength="6" disabled="disabled">
+                <a href="javascript:void(0);" class="icon-reg reg-empty" title="清空" style="display:none;">清空</a>
+                <input id="getCode" type="button" class="reg-btn dark-btn get-code get-code-find fr" value="获取验证码">
+            </div>
+            <div class="reg-error-box" style="display:none;"></div>
+        </div>
+        <div class="field psw mt10">
+            <div class="field-relative">
+                <input id="password" class="reg-input reg-disabled icon-reg icon-reg-psw" type="password" name="newPassword" placeholder="请输入新密码" disabled="disabled" value="" autocomplete="off" onpaste="return false;" oncopy="return false;" oncut="return false;">
+                <a href="javascript:void(0);" class="icon-reg reg-empty" title="清空" style="display:none;">清空</a>
+            </div>
+            <div class="reg-error-box" style="display:none;"></div>
+        </div>
+        <div class="field psw mt10">
+            <div class="field-relative">
+                <input class="reg-input reg-disabled icon-reg icon-reg-psw" type="password" name="confirmPassword" placeholder="再次确认新密码" disabled="disabled" value="" autocomplete="off" onpaste="return false;" oncopy="return false;" oncut="return false;">
+                <a href="javascript:void(0);" class="icon-reg reg-empty" title="清空" style="display:none;">清空</a>
+            </div>
+            <div class="reg-error-box" style="display:none;"></div>
+        </div>
+        <div class="field error-server">
+            <div id="server" class="reg-error-box" style="display:none;"></div>
+        </div>
+        <div class="field submit-btn mt10">
+            <input type="button" id="findBtn" class="reg-btn dark-btn" value="确定">
+        </div>
+    </form>
+</section>
+<script src="js/validate.min.js"></script>
+<script>
+    $(function(){
+        window.B5M_UC = {
+            rootPath : '#'
+            /* 用户中心API域名  */
+        };
+        wapReg.findFun();
+    });
+</script>        </div>
+        <input type="hidden" id="is_login" name="is_login" value="">
+        <input type="hidden" id="show_nav" value="1">
+        <input type="hidden" data-isnew="" data-isold="" id="is_app" value="">
+                <img src="files/hm.gif" width="0" height="0">
+        <script type="text/javascript" src="js/stat3.min.js"></script><div style="display: none;"><script type="text/javascript" async="" src="js/h.js"></script></div><img id="stat_image" src="files/__utm.gif" style="display: none;">
+
+    
+
+<footer id="footer">
+	<div class="f-qk-tl">
+		<div class="f-login">
+<a href="login.html">登录</a><span>|</span><a href="reg.html">注册</a>
+		</div>
+		<div class="f-go-top" id="goTop"></div>
+	</div>
+	<div class="f-ch-cp">
+		<div class="item"><a href="index.html">触屏版</a><a href="#">电脑版</a></div>
+		<div class="item"><span class="copyright_1">Copyright</span> <span class="copyright_2">2012-2015</span><span class="copyright_3">NAI.COM</span><span class="copyright_4">版权所有</span></div></div>
+</footer></body></html>
